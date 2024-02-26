@@ -1,1 +1,7 @@
-console.log ("test");
+{
+    const init = () => {
+
+    };
+
+    init();
+}
