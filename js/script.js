@@ -28,20 +28,7 @@
     render();
   };
 
-  const render = () => {
-    let htmlString = "";
-
-    for (const task of tasks) {
-      htmlString += `
-            <li ${task.done ? 'class="taskList__item"' : ""}">
-            <button class="js-done">Zadanie zrobione</button>
-            <button class="js-remove">Usuń</button>
-                ${task.content}
-            </li>
-        `;
-    }
-
-    document.querySelector(".js-tasks").innerHTML = htmlString;
+  const bindEvents = () => {
 
     const removeButton = document.querySelectorAll(".js-remove");
 
@@ -58,6 +45,26 @@
         toggleTaskDone(index);
       });
     });
+  };
+
+  const render = () => {
+    let htmlString = "";
+
+    for (const task of tasks) {
+      htmlString += `
+            <li ${task.done ? 'class="taskList__item"' : ""}">
+            <button class="js-done">Zadanie zrobione</button>
+            <button class="js-remove">Usuń</button>
+                ${task.content}
+            </li>
+        `;
+    }
+
+    document.querySelector(".js-tasks").innerHTML = htmlString;
+
+    bindEvents(); 
+
+    
   };
 
   const onFormSubmit = (event) => {
