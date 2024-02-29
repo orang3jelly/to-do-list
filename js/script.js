@@ -29,7 +29,6 @@
   };
 
   const bindEvents = () => {
-
     const removeButton = document.querySelectorAll(".js-remove");
 
     removeButton.forEach((removeButton, index) => {
@@ -52,7 +51,7 @@
 
     for (const task of tasks) {
       htmlString += `
-            <li ${task.done ? 'class="taskList__item"' : ""}">
+            <li ${task.done ? 'class="container__tasks--item"' : ""}">
             <button class="js-done">Zadanie zrobione</button>
             <button class="js-remove">Usuń</button>
                 ${task.content}
@@ -62,9 +61,7 @@
 
     document.querySelector(".js-tasks").innerHTML = htmlString;
 
-    bindEvents(); 
-
-    
+    bindEvents();
   };
 
   const onFormSubmit = (event) => {
@@ -86,5 +83,6 @@
 
     form.addEventListener("submit", onFormSubmit);
   };
+
   init();
 }
