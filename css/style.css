@@ -12,6 +12,10 @@ html {
   background-color: #eee;
 }
 
-
-
-
+.main {
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 25px;
+  width: 900px;
+  max-width: 100%;
+}
