@@ -1,6 +1,13 @@
 .section__subHeader {
   border: 1px solid black;
+  background-color: #fff;
   padding: 15px;
+}
+.section__list {
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 15px;
+  list-style-type: none;
 }
 
 .section__list--item {
