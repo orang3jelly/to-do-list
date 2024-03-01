@@ -6,14 +6,20 @@
   gap: 15px;
 }
 
+@media (max-width: 767px) {
+  .form {
+    flex-direction: column;
+  }
+}
+
 .form__input {
   flex-grow: 1;
   border: 1px solid black;
 }
 
 .form__button {
-    background-color: #008080;
-    color: #fff;
-    border: none;
-    padding: 10px;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 10px;
 }

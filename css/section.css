@@ -3,6 +3,7 @@
   background-color: #fff;
   padding: 15px;
 }
+
 .section__list {
   background-color: #fff;
   list-style-type: none;
@@ -14,18 +15,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+
   border-bottom: 1px solid #eee;
 }
 
 .section__listItem--done {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .section__listButton {
-    background-color: green;
-    border: none;
-    color: white;
-    width: 30px;
-    height: 30px;
+  background-color: #008000;
+  border: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
 }
