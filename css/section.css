@@ -36,6 +36,7 @@
   width: 30px;
   height: 30px;
   padding: 0 10px;
+  transition: 1s;
 }
 
 .section__listButton--remove {
@@ -44,6 +45,7 @@
   color: #fff;
   width: 30px;
   height: 30px;
+  transition: 1s;
 }
 
 .section__listButton:hover {
