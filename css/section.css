@@ -24,10 +24,41 @@
   text-decoration: line-through;
 }
 
+.section__listItem-task {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
 .section__listButton {
   background-color: #008000;
   border: none;
   color: #fff;
   width: 30px;
   height: 30px;
+}
+
+.section__listButton--remove {
+  background-color: #ff0000;
+  border: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+.section__listButton:hover {
+  background-color: #009900;
+  cursor: pointer;
+}
+
+.section__listButton:active {
+  background-color: #00b300;
+}
+
+.section__listButton--remove:hover {
+  background-color: #ff4d4d;
+  cursor: pointer;
+}
+
+.section__listButton--remove:active {
+  background-color: #ff8080;
 }
