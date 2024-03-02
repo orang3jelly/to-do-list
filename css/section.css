@@ -35,6 +35,7 @@
   color: #fff;
   width: 30px;
   height: 30px;
+  padding: 0 10px;
 }
 
 .section__listButton--remove {
