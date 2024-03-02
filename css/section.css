@@ -1,13 +1,14 @@
 .section__subHeader {
-  border: 1px solid black;
   background-color: #fff;
-  padding: 15px;
+  padding: 20px;
+  margin-bottom: 4px;
 }
 
 .section__list {
   background-color: #fff;
   list-style-type: none;
   padding: 10px;
+  margin: 0;
 }
 
 .section__listItem {
@@ -15,7 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  padding: 10px 0;
   border-bottom: 1px solid #eee;
 }
 

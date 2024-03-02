@@ -11,12 +11,12 @@ html {
 .body {
   background-color: #eee;
   font-family: "Lato", sans-serif;
+  overflow-wrap: anywhere;
 }
 
 .main {
-  border: 1px solid black;
   margin: 0 auto;
   padding: 25px;
-  width: 900px;
+  width: 1000px;
   max-width: 100%;
 }
